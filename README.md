@@ -16,6 +16,19 @@ Estou refazendo todos os passos das aulas para fixar o que foi passado.
 
 4- Testei se há diferença significativa entre os anos - há diferença significativa
 
+Kruskal-Wallis rank sum test
+
+data:  InAB_total[1:54] and Intervalo[1:54]
+Kruskal-Wallis chi-squared = 9.0402, df = 2, p-value = 0.01089
+
+Multiple comparison test after Kruskal-Wallis 
+p.value: 0.05 
+Comparisons
+              obs.dif critical.dif difference
+T1_T2-T1_T3  9.722222     12.55414      FALSE
+T1_T2-T2_T3  5.888889     12.55414      FALSE
+T1_T3-T2_T3 15.611111     12.55414       TRUE
+
 5- Realizei um bloxplot para expor os dados nos diferentes anos
 
 #Objetivo 2
